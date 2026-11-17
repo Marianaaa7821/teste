@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    height: 500vh;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header {
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    background-color: #fe775a;
+    top:0;
+    left: 0;
+    transition: 1s;
+}
+header.rolagem {
+    background-color: #fff;
+    padding: 20px 4%;
+}
+header.rolagem a, header.rolagem{
+    color: #fe775a;
+}
+header i {
+    font-size: 30px;
+    color: #fff;
+}
+header ul {
+    list-style-type: none;
+}
+header ul li {
+    display: inline-block;
+    margin: 0 40px;
+}
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+header ul li a:hover{
+    color: red;
+}
+.btn-contato button{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background-color: #fe775a;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+}
+.banner {
+    height: 100vh;
+    background-color: #f0c4ba;
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner h1 {
+    font-size: 4em;
+}
+
+.banner h1 span {
+    color: #ffffff;
+}
+
+.dropdown-menu{
+    width: 100px;
+    height: 60px;
+    background-color: #f5cdc4;
+    position: absolute;
+    border: 2px #030100;
+    box-sizing: 2px 2px 2px #030100;
+    display: none;
+    border-bottom: 1px solid #030100;
+  
+}
+
+.dropdown-menu a{
+    position: center;
+    display: block;
+    color: black;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
